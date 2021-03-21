@@ -34,7 +34,15 @@ Files:
 - make_ppt.py
 - make_ppt_lambda_function.py
 
-### 5. Packaging python packages for AWS Lambda 
+### 5. Taking Screenshots from URL
+The script take snapshots of the rendered visjs images from HTML pages.
+
+Output Folder: tmp
+
+Files: 
+- screen_capture.py
+
+### 6. Packaging python packages for AWS Lambda 
 ##### Step 1. Start a Cloud9 Linux instance in AWS
 - Search for Cloud9 in the AWS Services
 - Click Create Environment
