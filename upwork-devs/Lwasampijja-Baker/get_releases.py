@@ -82,6 +82,7 @@ class GetRelease():
 
           tdf                                   = pd.concat(tdata, ignore_index=True)
         tdf                                     = tdf[['name','commit.sha','zipball_url']]
+        tdf['zipball_url']                      = tdf['zipball_url'].str.replace('refs/tags/', '')
 
         # Merging the releases and tag dataframes on columns with similar information
 
